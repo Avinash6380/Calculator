@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* .header .display-1{
+    font-size: 60px;
+} */
+.display{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px 0 0;
+}
+.display input{
+
+    font-size: 80px;
+
+    border: none;
+    text-align:right;
+    max-width: 80%;
+}
+.right{
+    width: 80%;
+    height: 100%;
+    /* border: solid red 1px; */
+}
+.left{
+    background-color: #ebebeb;
+    width: 20%;
+    
+}
+.buttons .numbers button {
+    width: 300px;
+    height: 100px;
+    border: none;
+    padding: 0px;
+    margin: 2px 0 2px 0;
+    font-size:20px;
+    cursor: pointer;
+    transition: ease-in-out 0.4s;
+}
+.buttons .numbers button:hover{
+    background-color: #e4e4e4;
+    opacity: 1px;
+    transition: ease-in-out 0.4s;
+}
+.buttons .numbers #add, #sub, #x, #clear, #backspace, #divide{
+    background-color: #979797;
+    transition: ease-in-out 0.4s;
+}
+.buttons .numbers #add:hover, #sub:hover, #x:hover,#clear:hover, #backspace:hover, #divide:hover{
+    background-color: #a9a9aa;
+    transition: ease-in-out 0.4s;
+}
+.buttons .numbers #divide:active{
+    background-color: #7e7d7d;
+}
+.buttons .numbers #backspace:active{
+    background-color: #7e7d7d;
+}
+.buttons .numbers #clear:active{
+    background-color: #7e7d7d;
+}
+.buttons .numbers #sub:active{
+    background-color: #7e7d7d;
+}
+.buttons .numbers #add:active{
+    background-color: #7e7d7d;
+}
+.buttons .numbers #x:active{
+    background-color: #7e7d7d;
+}
+.buttons .numbers #equal{
+    background-color: #00a2ff;
+    transition: ease-in-out 0.4s;
+}
+.buttons .numbers #equal:hover{
+    background-color: #008ce9;
+}
+.buttons .numbers #equal:active{
+    background-color: #034987;
+}
+.buttons .numbers button:active{
+    background-color: #c8c8c8;
+}
+
+.sub-line button{
+    visibility: hidden;
+}
